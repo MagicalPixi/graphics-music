@@ -1,7 +1,6 @@
 var json = [
   
-    'fuck_him',
-  
+
 ];
 var png = [
   
