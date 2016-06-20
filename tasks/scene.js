@@ -36,8 +36,32 @@ module.exports = function (gulp) {
     var packageJsonObj = JSON.parse(fs.readFileSync(packageJsonPath).toString());
 
     scenes = packageJsonObj.scenes;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     scenesEdit = packageJsonObj.scenesEdit;
   });
+
 
   gulp.task('scene',['scene-before'], function () {
 
